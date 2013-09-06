@@ -1,0 +1,54 @@
+#####*1: Context (20 minuten)*
+---
+**Opdracht 1.1: No jQuery**  
+In 2tallen: Noteer voor- en nadelen van jQuery (minimaal 5 van ieder)
+
+Voordelen
+
+1. Combatibility (cross-browser)
+2. Makkelijke syntax
+3. Goede documentatie
+4. Grote community om je te helpen
+5. Veel functies
+
+Nadelen
+
+1. Grote libary, je kan hem niet deels inladen
+2. Te makkelijk, dus het wordt vaak onnodig gebruikt
+3. "Langzaam"
+4. Gelimiteerd (niet goed voor maatwerk)
+
+**Opdracht 1.2: Functionaliteiten jQuery**  
+Noem de belangrijkste functionaliteiten van jQuery (minimaal 5)
+
+1. Ajax
+2. Selectors
+3. Event listeners
+4. Utility functions
+5. Kant en klare animaties
+
+**Opdracht 1.3: Micro libraries**  
+Zoek op http://microjs.org naar libraries voor elke van de functionaliteiten gevonden bij opdracht 1.2 
+(deel jQuery op in verschillende micro libs). Kies voor elke functie een micro library (vergelijk en beoordeel op kwaliteit)
+
+1. Ajax
+
+oeboe.js
+
+2. Selectors
+
+sly.js
+
+3. Event listeners
+
+snack.js
+
+4. Utility functions
+
+underscore.js
+
+5. Animations
+
+firmin.js
+
+
