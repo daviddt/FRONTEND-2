@@ -27,8 +27,11 @@ var min;
 Leg uit wat een closure is en maak een code voorbeeld
 */
 
-for (var i = 1; i < 100; i++) {
-	setTimeout((function(){
-		console.log(i);
-	})(), 500);
+function init() {
+    var name = "David";
+    function sayName() { 
+        alert (name);    
+    }
+    sayName();    
 }
+init();
