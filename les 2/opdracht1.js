@@ -61,7 +61,7 @@ var GEO = GEO || {};
         // Vraag de huidige positie aan geo.js, stel een callback in voor het resultaat
         update_position: function() {
             intervalCounter++;
-            geo_position_js.getCurrentPosition(GEO.map.set_position, GEO.debug.geo_error_handler, {enableHighAccuracy:true});
+            navigator.geolocation.getCurrentPosition(GEO.map.set_position, GEO.debug.geo_error_handler, {enableHighAccuracy:true});
         },
 
         // Callback functie voor het instellen van de huidige positie, vuurt een event af
