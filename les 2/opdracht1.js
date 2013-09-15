@@ -45,7 +45,7 @@ var GEO = GEO || {};
             (geo_position_js.init())?ET.fire(GPS_AVAILABLE):ET.fire(GPS_UNAVAILABLE);
         }
 
-    }
+    };
 
     GEO.map = {
 
@@ -102,7 +102,7 @@ var GEO = GEO || {};
             return Math.round(google.maps.geometry.spherical.computeDistanceBetween(pos1, pos2), 0);
         }
 
-    }
+    };
 
 
     GEO.startmap = {
@@ -180,7 +180,7 @@ var GEO = GEO || {};
             currentPositionMarker.setPosition(newPos);
         }
 
-    }
+    };
 
     GEO.debug = {
 
@@ -197,7 +197,7 @@ var GEO = GEO || {};
             customDebugging = true;
         }
 
-    }
+    };
 
 
 
