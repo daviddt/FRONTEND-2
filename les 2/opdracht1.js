@@ -31,7 +31,6 @@ var GEO = GEO || {};
     var REFRESH_RATE = 1000;
     var currentPosition = currentPositionMarker = customDebugging = debugId = map = interval =intervalCounter = updateMap = false;
     var locatieRij = markerRij = [];
-    var getCurrentPosition;
     var message;
 
     GEO.application = {
