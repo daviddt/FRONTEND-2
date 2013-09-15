@@ -43,7 +43,7 @@ var GEO = GEO || {};
             ET.addListener(GPS_AVAILABLE, GEO.map.start_interval);
             ET.addListener(GPS_UNAVAILABLE, function(){GEO.debug.debug_message('GPS is niet beschikbaar.')});
 
-            (navigator.geo_position_js.init())?ET.fire(GPS_AVAILABLE):ET.fire(GPS_UNAVAILABLE);
+            (geo_position_js.init())?ET.fire(GPS_AVAILABLE):ET.fire(GPS_UNAVAILABLE);
         }
 
     }
