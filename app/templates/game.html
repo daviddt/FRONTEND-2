@@ -1,0 +1,37 @@
+
+<section>
+	<h1>Pool A - Score: {{game[0].team1}} vs. {{game[0].team2}}</h1>
+	<table>
+	    <tr>
+	        <th>Team</th>
+	        <th>Result</th>
+	        <th>Team</th>
+	    </tr>
+
+	    <tr>
+	        <td ng-class="{ winner : team1total > team2total}">{{game[0].team1}}</td>
+	        <td>{{team1total}} - {{team2total}}</td>
+	        <td ng-class="{ winner : team1total < team2total}">{{game[0].team2}}</td>
+	    </tr>
+	</table>
+
+
+	<table>
+	    <tr>
+	        <th>Score</th>
+	        <th>Team</th>
+	        <th>Points</th>
+	        <th>Team</th>
+	    </tr>
+
+
+	    <tr ng-repeat="result in game">
+	        <td>{{result.score}}</td>
+	        <td>{{result.team1}}</td>
+	        <td>{{result.team1Score}} - {{result.team2Score}}</td>
+	        <td>{{result.team2}}</td>
+	    </tr>
+
+
+	</table>
+</section>

@@ -1,0 +1,30 @@
+<section>
+    <h1>Pool A - Ranking</h1>
+
+    <select name="order_ranking" ng-change="setOrder(type)" ng-model="type">
+        <option value ="PW - Pl" selected>Win / Loss Ratio</option>
+        <option value ="Win">Wins</option>
+        <option value ="Lost">Losses</option>
+        <option value ="team">Team name</option>    
+    </select>
+
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>W</th>
+            <th>L</th>
+            <th>Points won</th>
+            <th>Points lost</th>
+            <th>+/-</th>
+        </tr>
+
+        <tr ng-repeat="rank in ranking | orderBy: predicate:true">
+            <td>{{rank.team}}</td>
+            <td>{{rank.Win}}</td>
+            <td>{{rank.Lost}}</td>
+            <td>{{rank.Pw}}</td>
+            <td>{{rank.Pl}}</td>
+            <td>{{rank.Pw - rank.Pl}}</td>
+        </tr>
+    </table>
+</section>

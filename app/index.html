@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+
+  <title>FRISBEEEE</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="css/app.css"/>
+
+</head>
+<body ng-controller="Main">
+
+  <header>
+      <h1><span>Tournament: </span>Amsterdam Ultimate Autumn</h1>
+  </header>
+
+
+  <nav>
+      <a ng-class="{active:isActive('/schedule')}" href="#/schedule">Schedule page</a></li>
+      <a ng-class="{active:isActive('/game')}" href="#/game">Game page</a></li>
+      <a ng-class="{active:isActive('/ranking')}" href="#/ranking">Ranking page</a></li>
+  </nav>
+
+  <div ng-view>
+    <img src="img/loading.gif">
+  </div>
+
+  <script src="lib/domready/domready.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+
+</body>
+</html>
