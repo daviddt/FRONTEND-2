@@ -1,0 +1,12 @@
+[
+    { "date": "Monday, 9:00am", "team1": "Chasing", "team1Score": 13, "team2": "Amsterdam Money Gang", "team2Score": 9},
+    { "date": "Monday, 9:00am", "team1": "Boomsquad", "team1Score": 15, "team2": "Beast Amsterdam", "team2Score": 11},
+    { "date": "Monday, 10:00am", "team1": "Beast Amsterdam", "team1Score": 14, "team2": "Amsterdam Money Gang", "team2Score": 12},
+    { "date": "Monday, 10:00am", "team1": "Chasing", "team1Score": 5, "team2": "Burning Snow", "team2Score": 15},
+    { "date": "Monday, 11:00am", "team1": "Boomsquad", "team1Score": 11, "team2": "Amsterdam Money Gang", "team2Score": 15},    
+    { "date": "Monday, 11:00am", "team1": "Burning Snow", "team1Score": 15, "team2": "Beast Amsterdam", "team2Score": 6},
+    { "date": "Monday, 12:00pm", "team1": "Chasing", "team1Score": 8, "team2": "Beast Amsterdam", "team2Score": 15},
+    { "date": "Monday, 12:00pm", "team1": "Boomsquad", "team1Score": 15, "team2": "Burning Snow", "team2Score": 8},
+    { "date": "Monday, 1:00pm", "team1": "Chasing", "team1Score": 15, "team2": "Boomsquad", "team2Score": 14},
+    { "date": "Monday, 1:00pm", "team1": "Burning Snow", "team1Score": 15, "team2": "Amsterdam Money Gang", "team2Score": 11} 
+]

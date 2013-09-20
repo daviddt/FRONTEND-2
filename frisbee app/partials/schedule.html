@@ -1,0 +1,23 @@
+<section>
+    <h1>Pool A - Schedule</h1>
+    <label for="searchFilter">Zoek:</label> 
+    <input id="searchFilter" ng-model="query">
+    <table>
+        <thead>
+            <tr>
+                <th>Monday 18 March</th>
+                <th>Team</th>
+                <th>Result</th>
+                <th>Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="schedule in schedules | filter:query">
+                <td>{{schedule.date}}</td>
+                <td ng-class="{ winner : schedule.team1Score > schedule.team2Score}">{{schedule.team1}}</td>
+                <td>{{schedule.team1Score}} - {{schedule.team2Score}}</td>
+                <td ng-class="{ winner : schedule.team1Score < schedule.team2Score}">{{schedule.team2}}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
