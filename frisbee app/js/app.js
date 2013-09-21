@@ -10,6 +10,6 @@ var FrisbeeApp = angular.module('frisbee', []);
 	      when('/game', {templateUrl: 'partials/game.html',   controller: 'GameCtrl'}).
 	      when('/ranking', {templateUrl: 'partials/ranking.html',   controller: 'RankingCtrl'}).
 	      otherwise({redirectTo: '/schedule'});
-	});
+	}]);
 
-}])();
+})();

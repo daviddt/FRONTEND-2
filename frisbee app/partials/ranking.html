@@ -3,12 +3,12 @@
     <table>
         <thead>
             <tr>
-                <th ng-click="orderBy('team')">Team</th>
-                <th ng-click="orderBy('win')">W</th>
-                <th ng-click="orderBy('Lost')">L</th>
-                <th ng-click="orderBy('Pw')">Points won</th>
-                <th ng-click="orderBy('Pl')">Points lost</th>
-                <th ng-click="orderBy('Pw - Pl')">+/-</th>
+                <th ng-click="orderBy('team')" ng-class="{'active': orderProp=='team'}">Team</th>
+                <th ng-click="orderBy('win')" ng-class="{'active': orderProp=='win'}">W</th>
+                <th ng-click="orderBy('Lost')" ng-class="{'active': orderProp=='Lost'}">L</th>
+                <th ng-click="orderBy('Pw')" ng-class="{'active': orderProp=='Pw'}">Points won</th>
+                <th ng-click="orderBy('Pl')" ng-class="{'active': orderProp=='Pl'}">Points lost</th>
+                <th ng-click="orderBy('Pw - Pl')" ng-class="{'active': orderProp=='Pw - Pl'}">+/-</th>
             </tr>
         </head>
         <tbody>
